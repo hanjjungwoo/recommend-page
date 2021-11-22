@@ -1,0 +1,12 @@
+.boxtable {
+    display: inline-block;
+    line-height: 50px;
+    width: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border: black;
+}

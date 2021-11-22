@@ -1,0 +1,31 @@
+@import url(./css/reset.css);
+@import url(./css/header.css);
+@import url(./css/nav.css);
+@import url(./css/survey.css);
+@import url(./css/visit.css);
+@font-face {
+  font-family: "samanco";
+  src:url("./font/samanco.ttf");
+}
+
+.App {
+  text-align: center;
+}
+.form-background {
+  text-align:center;
+  height: 1000px;
+}
+.result-background {
+  margin-top: 30px;
+  padding-top: 3%;
+  display: inline-block;
+  height: 500px;
+  width: 720px;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  border: solid 3px rgb(209, 209, 209);
+}
+
+* {
+  font-family: "samanco" !important;
+}

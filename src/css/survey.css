@@ -1,0 +1,8 @@
+.survey_submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color:#ffde66;
+    border: solid 1px #b89000;
+}
