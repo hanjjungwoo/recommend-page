@@ -17,6 +17,7 @@ label {
     text-align:center;
     position: relative;
     border-radius: 35px;
+    margin-bottom: 50px;
 }
 .nav::after {
     position:absolute;
@@ -47,5 +48,5 @@ label {
     font-weight: bold;
 }
 .navname:hover {
-    color:#fad552;
+    color:#9b7900;
 }
