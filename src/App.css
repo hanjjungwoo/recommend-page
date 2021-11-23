@@ -3,6 +3,7 @@
 @import url(./css/nav.css);
 @import url(./css/survey.css);
 @import url(./css/visit.css);
+@import url(./css/gallery.css);
 @font-face {
   font-family: "samanco";
   src:url("./font/samanco.ttf");
@@ -26,6 +27,6 @@
   border: solid 3px rgb(209, 209, 209);
 }
 
-* {
+/* * {
   font-family: "samanco" !important;
-}
+} */

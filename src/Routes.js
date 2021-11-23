@@ -7,6 +7,7 @@ import Board from "./component/board";
 import SurveyResult from "./component/survey_result";
 import Visit from "./component/visitplace";
 import VisitResult from "./component/visit_result";
+import Gallery from "./component/gallery";
 
 
 export default class Routes extends React.Component {
@@ -20,6 +21,7 @@ export default class Routes extends React.Component {
         <Route path="/survey_result" component={SurveyResult}/>
         <Route path="/visit" component={Visit}/>
         <Route path="/visit_result" component={VisitResult}/>
+        <Route path="/gallery" component={Gallery}/>
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
