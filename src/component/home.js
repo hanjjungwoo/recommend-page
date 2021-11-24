@@ -1,9 +1,9 @@
-
+import Scroll from './scroll'
 
 const Home= () => {
     return (
-        <div class="box01">
-        <h1>배경만 투명하게</h1>
+        <div className="form-background">
+            <Scroll></Scroll>
         </div>
     )
 }
