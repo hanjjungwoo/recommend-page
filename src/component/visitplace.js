@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Todo from "./todo"
+import Scroll from "./scroll"
 
 
 const Visit = () => {
@@ -7,7 +7,7 @@ const Visit = () => {
         <div className="form-background">
             <div className="result-background">
                 <h2 className="visit-h2">좋았던 여행지는 어디입니까?</h2>
-                <Todo/>
+                <Scroll/>
                 <Link to="/visit_result"><input type="submit" value="추천받기"></input></Link>
             </div>
         </div>
