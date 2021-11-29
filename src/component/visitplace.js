@@ -5,10 +5,10 @@ import Scroll from "./scroll"
 const Visit = () => {
     return (
         <div className="form-background">
-            <div className="result-background">
-                <h2 className="visit-h2">좋았던 여행지는 어디입니까?</h2>
+            <div className="request-background">
+                <h3 className="visit-h2">좋았던 여행지는 어디입니까?</h3>
                 <Scroll/>
-                <Link to="/visit_result"><input type="submit" value="추천받기"></input></Link>
+                <Link to="/visit_result"><button type="submit">추천받기</button></Link>
             </div>
         </div>
     )

@@ -1,5 +1,20 @@
+// import React, {useState} from "react"
+
 const Scroll = () => {
+    // function handleOnChange(e) {
+    //     const text = e.options[e.selectedIndex].text;
+
+    //     console.log(e.options);
+    //     document.getElementsByClassName('result').innerText=text;
+    // };
+    // const [submit, setSubmit]=useState("");
+
+    // const handleOnChange=({tartget:{value}}) => setSubmit(value);
+
+
     return (
+        
+
         <div>
             <select className="scroll">
                 <option value="DDP 동대문디자인플라자">DDP 동대문디자인플라자</option>

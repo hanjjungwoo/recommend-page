@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Survey = () => {
   return (
           <div className="form-background">
-            <div className="result-background">
+            <div className="request-background">
               <div className="boxtable">
                 <label>
                 전반적만족도

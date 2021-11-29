@@ -17,6 +17,17 @@
   text-align:center;
   height: 1000px;
 }
+.request-background {
+  margin-top: 30px;
+  padding-top: 3%;
+  display: inline-block;
+  height: 500px;
+  width: 720px;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  border: solid 3px rgb(209, 209, 209);
+}
+
 .result-background {
   margin-top: 30px;
   padding-top: 3%;
@@ -27,6 +38,8 @@
   border-radius: 50px;
   border: solid 3px rgb(209, 209, 209);
 }
+
+
 
 /* * {
   font-family: "samanco" !important;
