@@ -5,6 +5,7 @@
 @import url(./css/visit.css);
 @import url(./css/gallery.css);
 @import url(./css/scroll.css);
+@import url(./css/imgslider.css);
 @font-face {
   font-family: "samanco";
   src:url("./font/samanco.ttf");
@@ -15,7 +16,7 @@
 }
 .form-background {
   text-align:center;
-  height: 1000px;
+  height: 1000  px;
 }
 .request-background {
   margin-top: 30px;

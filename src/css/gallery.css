@@ -1,20 +1,30 @@
 .gallery-container {
-  background-color: cadetblue;
   height: 800px;
   margin-left: 6%;
   margin-right: 6%;
   display: inline-block;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  border: solid 3px rgb(209, 209, 209);
 }
 .gallery-image-container {
-  text-align: center;
+  display: inline-block;
+  align-items: center;
   background-color: cornsilk;
   height: 700px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.desc
-{
+.gallery-image-space-container{
+  display: inline-block;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.desc{
   text-align: center;
   font-weight: normal;
   width: 100%;
@@ -32,7 +42,7 @@ div.images{
   box-sizing:border-box;
   background:#f1f1f1;
   line-height:0px;
-  height: auto;
+  min-height: 100px;
   width: 20%;
   float: left;
   text-align: center;
@@ -41,9 +51,11 @@ div.images{
   -o-transition:all 0.5s ease; 
   transition:all 0.5s ease;
   border-radius:4px;
-}	
+}
+
 .images:hover {
-  line-height:30px;font-size:16px;
+  line-height:30px;
+  font-size:16px;
 }
 
 div.img img {
